@@ -1,0 +1,15 @@
+display: grid; = colocado no pai, para indicar que os seus filhos serão grids
+
+grid-template-areas: "nome das areas"; = para definir nomes(identificadores para as areas criadas)
+
+grid-template-colums: quatidade; = para definir a quatidade de colunas que serão
+
+grid-template-rows: tamanho; = para definir o tamnaho das areas definidas
+
+grid-area: nome da area ja definida no (grid-template-areas); = para colocadoo identificadoror na classe a de ele pertence
+
+grid-column: número inicio / número final; posição do elemento em relação a coluna
+
+grid-row: número inicio / número final; posição do elemento em relação a linha
+
+grid-gap: tamanho; espaço entre os grids
